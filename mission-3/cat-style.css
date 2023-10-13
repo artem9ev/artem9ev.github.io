@@ -2,10 +2,16 @@
 {
     color: #000000; 
     font-family: "Raleway", sans-serif; 
+    font-size: 20px;
 }
 body{
     background: url("images/Backgrounds/mainpage.jpg");
     background-size: cover;
+}
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vmax;
 }
 a{ /* для ссылок */
     color: #9c925c;
@@ -14,24 +20,36 @@ a{ /* для ссылок */
 a:hover{ /* при наведении */
     color: #6a9dfd ;
 }
-.atable {
-    color: #121923;
-    text-shadow: 1px 1px 1px #9eb2e3;
+h3 {
+    padding-left: 15px;
+    font-size: 25px;
+}
+h4 {
+    padding-left: 0px;
+    font-size: 30px;
 }
 .link { color: #353930 }
+.textblock {
+    width: 45vmax;
+}
 .leftimg {
     float:left;
     margin: 0 10px 10px 0;
 }
 .rightimg  {
     float: right;
-    margin: 0 0 10px 10px;
+    padding-left: 5vmax;
+    width: 20vmax;
 }
 .center-img {
     display: block;
     margin: 0 auto;
 }
 /* таблица */
+.atable {
+    color: #121923;
+    text-shadow: 1px 1px 1px #9eb2e3;
+}
 .table{
     border: 3px solid  #100724;
     table-layout: fixed;
