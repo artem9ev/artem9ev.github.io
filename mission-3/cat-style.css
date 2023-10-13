@@ -32,10 +32,6 @@ h4 {
 .textblock {
     width: 45vmax;
 }
-.leftimg {
-    float:left;
-    margin: 0 10px 10px 0;
-}
 .rightimg  {
     float: right;
     padding-left: 5vmax;
@@ -49,6 +45,7 @@ h4 {
 .atable {
     color: #121923;
     text-shadow: 1px 1px 1px #9eb2e3;
+    font-size: 15px;
 }
 .table{
     border: 3px solid  #100724;
@@ -57,6 +54,7 @@ h4 {
     margin-bottom: 20px;
 }
 .table th {
+    font-size: 15px;
     font-weight: bold;
     padding: 3px;
     border: 3px solid #100724;
@@ -124,24 +122,35 @@ footer{
     padding: 10px;
 }
 /* Флееееекс */
-#main-wrapper {
+main {
     display: flex;
     flex-direction: column;
-  }
-  #main-wrapper .tablebox {
-    flex: 1;
+}
+.tablecontent{
     order: 1;
-  }
-  #main-wrapper main {
-    flex: 3;
+}
+.textcontent{
     order: 2;
-  }
+}
+.formacontent{
+    order: 3;
+}
   
-  @media screen and (min-width: 800px) {
-    #main-wrapper {
-      flex-direction: row;
+@media screen and (min-width: 800px) {
+    main {
+        display: flex;
+		flex-direction: column;
     }
-  }
+    .tablecontent{
+        order: 2;
+    }
+    .textcontent{
+        order: 1;
+    }
+    .formacontent{
+        order: 3;
+    }
+}
 
 /* --- Маринин вариант
 main {
