@@ -123,3 +123,42 @@ footer{
     margin:0px;
     padding: 10px;
 }
+/* Флееееекс */
+#main-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  #main-wrapper .tablebox {
+    flex: 1;
+    order: 1;
+  }
+  #main-wrapper main {
+    flex: 3;
+    order: 2;
+  }
+  
+  @media screen and (min-width: 800px) {
+    #main-wrapper {
+      flex-direction: row;
+    }
+  }
+
+/* --- Маринин вариант
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+.tabliz {
+	order: 1;
+}
+
+.text {
+	order: 2;
+}
+
+.fomaa {
+	order: 3;
+	margin-bottom: 2%;
+}
+*/
