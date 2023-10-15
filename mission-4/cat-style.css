@@ -96,35 +96,22 @@ h4 {
 
 /* шапка*/
 header {
-    display: flex;
-    flex-direction: column;
     text-align: left;
     background: #492878;
 }
 
-.shapochka {
-    display: flex;
-    flex-direction: row;
-}
-
-.navigator {
-    display: flex;
-    flex-direction: column;
-}
-
 .logo {
     padding: 10px;
-    height: 15%;
-    width: 15%;
+    width: 30%;
 }
 
 .navig {
-    font-size: 3.5vw;
+    font-size: 2.8vw;
     text-shadow: 2px 2px 4px #1b2338;
 }
 
 .titleee {
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: bold;
     color: #a6b3df;
     text-shadow: 2px 2px 4px #1b2338;
