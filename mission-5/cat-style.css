@@ -1,0 +1,154 @@
+* {
+    color: #000000;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background: url("images/Backgrounds/mainpage.jpg");
+    background-size: cover;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vmax;
+}
+
+a {
+    /* для ссылок */
+    color: #9c925c;
+    text-shadow: 1px 1px 1px #9eb2e3;
+}
+
+a:hover {
+    /* при наведении */
+    color: #6a9dfd;
+}
+
+h3 {
+    padding-left: 15px;
+    font-size: 25px;
+}
+
+h4 {
+    padding-left: 0px;
+    font-size: 30px;
+}
+
+.link {
+    color: #353930
+}
+
+.textblock {
+    width: 45vmax;
+}
+
+.cat01 {
+    width: 50%;
+}
+
+.rightimg {
+    float: right;
+    padding-left: 5vmax;
+    width: 20vmax;
+}
+
+.center-img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* таблица */
+.atable {
+    color: #121923;
+    text-shadow: 1px 1px 1px #9eb2e3;
+    font-size: 15px;
+}
+
+.table {
+    border: 3px solid #100724;
+    table-layout: fixed;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.table th {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px;
+    border: 3px solid #100724;
+}
+
+.table td {
+    padding: 3px 3px;
+    border: 3px solid #100724;
+    text-align: left;
+}
+
+.table tbody tr:nth-child(odd) {
+    background: #4f30cac7;
+}
+
+.table tbody tr:nth-child(even) {
+    background: #3045ca85;
+}
+
+/* шапка*/
+header {
+    text-align: left;
+    background: #492878;
+}
+
+.logo {
+    padding: 10px;
+    width: 30%;
+}
+
+.navig {
+    font-size: 2.8vw;
+    text-shadow: 2px 2px 4px #1b2338;
+}
+
+.titleee {
+    font-size: 4vw;
+    font-weight: bold;
+    color: #a6b3df;
+    text-shadow: 2px 2px 4px #1b2338;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    padding: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #a6b3df;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*подвал*/
+footer {
+    margin-top: 5px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color: #492878;
+}
+
+.podval {
+    font-weight: bold;
+    color: #a6b3df;
+    text-shadow: 2px 2px 4px #1b2338;
+    height: 50px;
+    font-size: 32px;
+    margin: 0px;
+    padding: 10px;
+}
+
+/* Флееееекс */
