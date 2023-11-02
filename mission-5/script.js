@@ -6,15 +6,15 @@ function calculateCost() {
     // Расчет стоимости
     var price;
     if (product === "product1") {
-        price = 90000;
+        price = 4500;
     } else if (product === "product2") {
-        price = 15000;
+        price = 4400;
     } else if (product === "product3") {
-        price = 135000;
-    }
-    else if (product === "product4") {
-        price = 20000;
-
+        price = 3600;
+    } else if (product === "product4") {
+        price = 5400;
+    } else if (product === "product5") {
+        price = 5400;
     }
     var totalCost = count * price;
     // Вывод стоимости заказа на страницу
