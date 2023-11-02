@@ -134,21 +134,19 @@ nav ul li a {
 
 /*подвал*/
 footer {
-    margin-top: 5px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    text-align: center;
+    margin: 0;
+    padding: 16px;
+    height: 80px;
     background-color: #492878;
+
 }
 
 .podval {
     font-weight: bold;
     color: #a6b3df;
     text-shadow: 2px 2px 4px #1b2338;
-    height: 50px;
     font-size: 32px;
-    margin: 0px;
-    padding: 10px;
 }
 
 /* Флееееекс */
