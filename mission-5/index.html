@@ -17,8 +17,6 @@
         </div>
         </div>
     </header>
-
-
     <h1 class="zagolovok">Калькулятор стоимости заказа</h1>
     <div class="container p-0">
         <div class="row">
@@ -43,28 +41,19 @@
             </div>
         </div>
     </div>
-
-    <label for="quantity">Количество товара:</label>
-    <input type="number" id="quantity" min="1" required><br><br>
-
-    <label for="product">Выберите товар, который больше всего вам нравится:</label>
+    <label for="count">Количество товара:</label>
+    <input type="number" id="count" min="1" required><br><br>
+    <label for="product">Выберете интересующий вас товар:</label>
     <select id="product" required>
-        <option value="product1">Фотоаппарат</option>
-        <option value="product2">Камера</option>
-        <option value="product3">Телефон</option>
-        <option value="product4">Полароид</option>
+        <option value="product1">товар_0</option>
+        <option value="product2">товар_1</option>
+        <option value="product3">товар_2</option>
+        <option value="product4">товар_3</option>
     </select><br><br>
-
     <button onclick="calculateCost()">Подсчитать стоимость</button>
-
-
     <div id="result"></div>
-
-
-
-
     <footer>
-        <h5 class="pod">Несветайлов Владислав 24гр</h5>
+        <h5 class="pod">Артемьев Роман 24гр</h5>
     </footer>
     <script src="script.js"></script>
 </body>

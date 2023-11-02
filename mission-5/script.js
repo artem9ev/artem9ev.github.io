@@ -1,23 +1,22 @@
 function calculateCost() {
     // Получение значений из формы
-    var quantity = document.getElementById("quantity").value;
+    var count = document.getElementById("count").value;
     var product = document.getElementById("product").value;
 
-    // Расчет стоимости заказа
+    // Расчет стоимости
     var price;
     if (product === "product1") {
-        price = 90000; //Цена за Фотоаппарат
+        price = 90000;
     } else if (product === "product2") {
-        price = 15000; // Цена за Камеру
+        price = 15000;
     } else if (product === "product3") {
-        price = 135000; // Цена за Телефон
+        price = 135000;
     }
     else if (product === "product4") {
-        price = 20000; // Цена за Полароид
+        price = 20000;
 
     }
-    var totalCost = quantity * price;
-
+    var totalCost = count * price;
     // Вывод стоимости заказа на страницу
     document.getElementById("result").innerHTML = "Стоимость заказа: " + totalCost + " руб.";
 }
